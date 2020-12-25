@@ -10,7 +10,8 @@
       "params": {
         "address": "0x8b9f9f4aa70b1b0d586be8adfb19c1ac38e05e9a",
         "symbol": "WASP",
-        "decimals": 18
+        "decimals": 18,
+        "disableBlock": 12278462
       }
     },
     {
@@ -20,6 +21,7 @@
         "address": "0x700479A04D9A376A80E013ACFb83a931077B77aD",
         "decimals": 18,
         "symbol": "WASP",
+        "enableBlock": 12278461,
         "methodABI": {
           "inputs": [
             {
