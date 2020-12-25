@@ -6,11 +6,31 @@
   "skin": "wanswap",
   "strategies": [
     {
-      "name": "erc20-balance-of",
+      "name": "contract-call",
       "params": {
-        "address": "0x8b9f9f4aa70b1b0d586be8adfb19c1ac38e05e9a",
+        "address": "0x700479A04D9A376A80E013ACFb83a931077B77aD",
+        "decimals": 18,
         "symbol": "WASP",
-        "decimals": 18
+        "methodABI": {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "user",
+              "type": "address"
+            }
+          ],
+          "name": "getTotalWasp",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "constant": true
+        }
       }
     }
   ],
