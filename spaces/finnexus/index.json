@@ -1,5 +1,5 @@
 {
-  "token": "0x6D4C9E28006b6699C01A6F1C24f42d6c215A39df",
+  "token": "0xD556E9b08F2726A52AC459C561ea57A8F979a12d",
   "name": "FinNexus",
   "network": "1",
   "symbol": "FNX",
@@ -7,10 +7,10 @@
   "domain": "vote.finnexus.io",
   "strategies": [
     {
-	  "token": "0x6D4C9E28006b6699C01A6F1C24f42d6c215A39df",
+	  "token": "0xD556E9b08F2726A52AC459C561ea57A8F979a12d",
       "name": "contract-call",
       "params": {
-        "address": "0x6D4C9E28006b6699C01A6F1C24f42d6c215A39df",
+        "address": "0xD556E9b08F2726A52AC459C561ea57A8F979a12d",
         "decimals": 18,
         "symbol": "fnx",
         "methodABI": {
