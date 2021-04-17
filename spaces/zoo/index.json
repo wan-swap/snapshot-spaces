@@ -1,0 +1,21 @@
+{
+  "token": "0x6e11655d6ab3781c6613db8cb1bc3dee9a7e111f",
+  "name": "ZOO",
+  "network": "1",
+  "symbol": "ZOO",
+  "skin": "wanswap",
+  "strategies": [
+    {
+      "name": "erc20-balance-of",
+      "params": {
+        "address": "0x6e11655d6ab3781c6613db8cb1bc3dee9a7e111f",
+        "symbol": "ZOO",
+        "decimals": 18
+      }
+    }
+  ],
+  "filters": {
+    "defaultTab": "all",
+    "minScore": 0
+  }
+}
