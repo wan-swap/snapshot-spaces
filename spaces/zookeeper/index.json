@@ -14,8 +14,20 @@
       }
     }
   ],
+  "members": [
+    "0xa5C9D8DFccc536E2d103c95156E42e98D4eDA09a",
+    "0xa50D449eeFA154a1BdD20C760180c081C139996a",
+    "0x0699B61F42e79e261D6d1EcF8162cCEf2c5aa38a",
+    "0x12397B53795ADbfeE29FD722242a9e09cD99e513",
+    "0xDc3565D0D2D3b4785a06113f4F33D9b01F73361B",
+    "0x38Ca2E61ecad7aae0ddFe75Aa8b322e18dAA2C96",
+    "0xE896dD4C78c2F5bE61c26A77d3D4EC70C07B07e4",
+    "0x5560aF0F46D00FCeA88627a9DF7A4798b1b10961",
+    "0x9902928FC35F9F9EDfebaa46fcC528E3135589E9"
+  ], 
+
   "filters": {
-    "defaultTab": "all",
-    "minScore": 0
+    "defaultTab": "core",
+    "minScore": 100
   }
 }
