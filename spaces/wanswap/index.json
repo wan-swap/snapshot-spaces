@@ -22,6 +22,7 @@
         "decimals": 18,
         "symbol": "WASP",
         "enableBlock": 12278461,
+        "disableBlock": 14220723,
         "methodABI": {
           "inputs": [
             {
@@ -60,7 +61,7 @@
               "type": "address"
             }
           ],
-          "name": "getZooKeeperFarmingWasp",
+          "name": "getTotalWasp",
           "outputs": [
             {
               "internalType": "uint256",
