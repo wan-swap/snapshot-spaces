@@ -6,7 +6,7 @@
   "skin": "wanswap",
   "strategies": [
     {
-      "name": "eth-balance",
+      "name": "wan-vote",
       "params": {}
     }
   ],
