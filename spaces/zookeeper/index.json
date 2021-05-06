@@ -10,7 +10,38 @@
       "params": {
         "address": "0x6e11655d6ab3781c6613db8cb1bc3dee9a7e111f",
         "symbol": "ZOO",
-        "decimals": 18
+        "decimals": 18,
+        "disableBlock": 14490121
+      }
+    },
+    {
+      "token": "0x6e11655d6ab3781c6613db8cb1bc3dee9a7e111f",
+      "name": "contract-call",
+      "params": {
+        "address": "0xd1a076428c89ebcc044419788d62782ceed576f7",
+        "decimals": 18,
+        "symbol": "ZOO",
+        "enableBlock": 14490121,
+        "methodABI": {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "user",
+              "type": "address"
+            }
+          ],
+          "name": "getTotalScore",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "constant": true
+        }
       }
     }
   ],
