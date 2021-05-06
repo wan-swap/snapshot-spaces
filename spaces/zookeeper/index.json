@@ -52,13 +52,15 @@
     "0x12397B53795ADbfeE29FD722242a9e09cD99e513",
     "0xDc3565D0D2D3b4785a06113f4F33D9b01F73361B",
     "0x38Ca2E61ecad7aae0ddFe75Aa8b322e18dAA2C96",
-    "0xE896dD4C78c2F5bE61c26A77d3D4EC70C07B07e4",
-    "0x5560aF0F46D00FCeA88627a9DF7A4798b1b10961",
-    "0x9902928FC35F9F9EDfebaa46fcC528E3135589E9"
+    "0xE896dD4C78c2F5bE61c26A77d3D4EC70C07B07e4"
   ], 
 
   "filters": {
     "defaultTab": "core",
-    "minScore": 0
+    "minScore": 0,
+    "invalids": [
+      "QmeB5YRexVCX2dWWnWnKyS14aevF2CgN7SggR3gcXu2on5",
+      "QmTr3fAviHAcNf7vvTGcQ7JpCRt71Y1yNcmRePT3DLVMo8"
+    ]
   }
 }
