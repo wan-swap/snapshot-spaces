@@ -1,18 +1,18 @@
 {
-  "token": "0xD556E9b08F2726A52AC459C561ea57A8F979a12d",
-  "name": "FinNexus",
-  "network": "1",
-  "symbol": "FNX",
-  "skin": "fnx",
-  "domain": "vote.finnexus.io",
+  "token": "0xd558c85f1391c143B29Eb016C79BD5726e6B69C6",
+  "name": "Phoenix",
+  "network": "888",
+  "symbol": "PHX",
+  "skin": "pnx",
+  "domain": "vote.phoenix-finance.io",
   "strategies": [
     {
-	  "token": "0xD556E9b08F2726A52AC459C561ea57A8F979a12d",
+	  "token": "0xd558c85f1391c143B29Eb016C79BD5726e6B69C6",
       "name": "contract-call",
       "params": {
-        "address": "0xD556E9b08F2726A52AC459C561ea57A8F979a12d",
+        "address": "0xd558c85f1391c143B29Eb016C79BD5726e6B69C6",
         "decimals": 18,
-        "symbol": "fnx",
+        "symbol": "phx",
         "methodABI": {
           "constant": true,
           "inputs": [
@@ -22,7 +22,7 @@
               "type": "address"
             }
           ],
-          "name": "fnxBalanceAll",
+          "name": "phxBalanceAll",
           "outputs": [
             {
               "internalType": "uint256",
