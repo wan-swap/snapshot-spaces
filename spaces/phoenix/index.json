@@ -3,7 +3,7 @@
   "name": "Phoenix",
   "network": "888",
   "symbol": "PHX",
-  "skin": "pnx",
+  "skin": "phx",
   "domain": "vote.phoenix-finance.io",
   "strategies": [
     {
