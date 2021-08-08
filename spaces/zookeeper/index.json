@@ -1,0 +1,68 @@
+{
+  "token": "0x6e11655d6ab3781c6613db8cb1bc3dee9a7e111f",
+  "name": "ZooKeeper",
+  "network": "1",
+  "symbol": "ZOO",
+  "skin": "wanswap",
+  "strategies": [
+    {
+      "name": "erc20-balance-of",
+      "params": {
+        "address": "0x6e11655d6ab3781c6613db8cb1bc3dee9a7e111f",
+        "symbol": "ZOO",
+        "decimals": 18,
+        "disableBlock": 14490121
+      }
+    },
+    {
+      "token": "0x6e11655d6ab3781c6613db8cb1bc3dee9a7e111f",
+      "name": "contract-call",
+      "params": {
+        "address": "0xd1a076428c89ebcc044419788d62782ceed576f7",
+        "decimals": 18,
+        "symbol": "ZOO",
+        "enableBlock": 14490121,
+        "methodABI": {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "user",
+              "type": "address"
+            }
+          ],
+          "name": "getTotalScore",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "constant": true
+        }
+      }
+    }
+  ],
+  "members": [
+    "0xa5C9D8DFccc536E2d103c95156E42e98D4eDA09a",
+    "0xa50D449eeFA154a1BdD20C760180c081C139996a",
+    "0x0699B61F42e79e261D6d1EcF8162cCEf2c5aa38a",
+    "0x12397B53795ADbfeE29FD722242a9e09cD99e513",
+    "0xDc3565D0D2D3b4785a06113f4F33D9b01F73361B",
+    "0x38Ca2E61ecad7aae0ddFe75Aa8b322e18dAA2C96",
+    "0xE896dD4C78c2F5bE61c26A77d3D4EC70C07B07e4"
+  ], 
+
+  "filters": {
+    "defaultTab": "core",
+    "minScore": 0,
+    "invalids": [
+      "QmeB5YRexVCX2dWWnWnKyS14aevF2CgN7SggR3gcXu2on5",
+      "QmTr3fAviHAcNf7vvTGcQ7JpCRt71Y1yNcmRePT3DLVMo8",
+      "QmZWka33fKNxKPaaBvfpRuttV32oHe3SddmbDtkMHoFpdR",
+      "QmcJVRJfyhMtd5XHjbsfPbmbhTMvTspUfmPRk2waUNcdg9"
+    ]
+  }
+}

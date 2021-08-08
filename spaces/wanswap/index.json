@@ -22,6 +22,37 @@
         "decimals": 18,
         "symbol": "WASP",
         "enableBlock": 12278461,
+        "disableBlock": 14220723,
+        "methodABI": {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "user",
+              "type": "address"
+            }
+          ],
+          "name": "getTotalWasp",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "constant": true
+        }
+      }
+    },
+    {
+      "token": "0x8b9f9f4aa70b1b0d586be8adfb19c1ac38e05e9a",
+      "name": "contract-call",
+      "params": {
+        "address": "0x897897c2A2fd8d83b40cf986bb5292cC87744988",
+        "decimals": 18,
+        "symbol": "WASP",
+        "enableBlock": 14220722,
         "methodABI": {
           "inputs": [
             {
@@ -47,6 +78,10 @@
   ],
   "filters": {
     "defaultTab": "all",
-    "minScore": 0
+    "minScore": 0,
+    "invalids": [
+      "QmVwyBsxWxajsRkreYJisSuJTxue4h7WyEcHfJMVs8J573",
+      "QmRS9qZvjGJAHYxcMHH6nbBurs8C4jDLe6Wcc34CSDMZDd"
+    ]
   }
 }
