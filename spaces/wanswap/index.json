@@ -8,71 +8,9 @@
     {
       "name": "erc20-balance-of",
       "params": {
-        "address": "0x8b9f9f4aa70b1b0d586be8adfb19c1ac38e05e9a",
+        "address": "0xdd7D0a9409F5554018DcCdf3Dd8bbd136e4aA67b",
         "symbol": "WASP",
-        "decimals": 18,
-        "disableBlock": 12278462
-      }
-    },
-    {
-      "token": "0x8b9f9f4aa70b1b0d586be8adfb19c1ac38e05e9a",
-      "name": "contract-call",
-      "params": {
-        "address": "0x700479A04D9A376A80E013ACFb83a931077B77aD",
-        "decimals": 18,
-        "symbol": "WASP",
-        "enableBlock": 12278461,
-        "disableBlock": 14220723,
-        "methodABI": {
-          "inputs": [
-            {
-              "internalType": "address",
-              "name": "user",
-              "type": "address"
-            }
-          ],
-          "name": "getTotalWasp",
-          "outputs": [
-            {
-              "internalType": "uint256",
-              "name": "",
-              "type": "uint256"
-            }
-          ],
-          "stateMutability": "view",
-          "type": "function",
-          "constant": true
-        }
-      }
-    },
-    {
-      "token": "0x8b9f9f4aa70b1b0d586be8adfb19c1ac38e05e9a",
-      "name": "contract-call",
-      "params": {
-        "address": "0x897897c2A2fd8d83b40cf986bb5292cC87744988",
-        "decimals": 18,
-        "symbol": "WASP",
-        "enableBlock": 14220722,
-        "methodABI": {
-          "inputs": [
-            {
-              "internalType": "address",
-              "name": "user",
-              "type": "address"
-            }
-          ],
-          "name": "getTotalWasp",
-          "outputs": [
-            {
-              "internalType": "uint256",
-              "name": "",
-              "type": "uint256"
-            }
-          ],
-          "stateMutability": "view",
-          "type": "function",
-          "constant": true
-        }
+        "decimals": 18
       }
     }
   ],
@@ -81,7 +19,9 @@
     "minScore": 0,
     "invalids": [
       "QmVwyBsxWxajsRkreYJisSuJTxue4h7WyEcHfJMVs8J573",
-      "QmRS9qZvjGJAHYxcMHH6nbBurs8C4jDLe6Wcc34CSDMZDd"
+      "QmRS9qZvjGJAHYxcMHH6nbBurs8C4jDLe6Wcc34CSDMZDd",
+      "QmUsQkryPPcxZTHYNLDGLSpfkJbSMM9se7o8C5CXfJuVSi",
+      "QmZuVXH2uvdo6YeuFipptenFdG1Ah4s7XGBK7HyiKJBbLW"
     ]
   }
 }
